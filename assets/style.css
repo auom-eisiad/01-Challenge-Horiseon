@@ -1,13 +1,16 @@
+/* set margin and padding of all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* give the body a background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* give the header a font and color with background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* give the heading one of the header a font size and to display inline block */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* give the "seo" in Horiseon a color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* set the padding and margin for the divider in the header and made to float to the right.
+the font and size is given */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/* make sure the unordered list has no list style to it */
 .header div ul {
     list-style-type: none;
 }
 
+/* make sure the list is display inline block and has a margin to the left of 25 pixels */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* make the hyperlink color white with no text decoration showing when hovered */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* make the paragraph the size of 16 pixels */
 p {
     font-size: 16px;
 }
 
+/* give the class an image to go in the background */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* make the image in search engine optimization float to the left with a margin of 25 pixels to the right */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* make the image in online reputation management float to the right with a margin of 25 pixels to the left */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* give the content class a width and to display inline block margin left 20 pixels */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* the benefits stay on the right of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,13 +135,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* fixed footer containing liscense */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
